@@ -1,0 +1,9 @@
+def Subtraction(x, y):
+    sub = x - y
+    return sub
+print("")
+print ("Enter two number to subtraction")
+first = int(input("Please enter first number: "))
+second = int (input("Please enter second number: "))
+
+print ("Total is: " , first , "-" , second , "=" , Subtraction(first,second))
